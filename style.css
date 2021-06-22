@@ -1,0 +1,65 @@
+/* show all elements in outlined red */
+/* div, section, main, aside, header, footer { */
+/* outline: 1px solid red; */
+/* } */
+
+body {
+  background-color: bisque;
+}
+
+.d-flex {
+  display: flex;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+
+.background-border {
+  border-color: black;
+  background-color: cornflowerblue;
+}
+
+.upper-border {
+  border: cornflowerblue;
+}
+
+#title {
+  border-top: 10px solid grey;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  text-align: center;
+  margin-bottom: 0;
+  vertical-align: bottom; 
+}
+
+section {
+  width: 70%;
+  padding: 0em 1em 0em 10em;
+}
+
+aside {
+  width: 30%;
+  padding: 1em 1em 0em 1em;
+}
+
+#info-paragraph {
+  padding: .5em;
+  margin-top: 0em;
+  vertical-align: top; 
+}
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+.img-flex {
+  width: 96%
+  height: auto;
+}
+
+.vh{
+  height: 80vh;
+}
